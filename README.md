@@ -1,2 +1,2 @@
-# Megadados2020-2-Projeto1-alunos
-Repositorio de códigos de referência para o projeto 1 de Megadados
+# Megadados2020-2-Projeto1
+Projeto 1 da disciplina Megadados - repositorio privado para testes
