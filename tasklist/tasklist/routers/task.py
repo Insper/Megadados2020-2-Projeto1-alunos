@@ -101,3 +101,12 @@ async def remove_task(uuid_: uuid.UUID, db: DBSession = Depends(get_db)):
             status_code=404,
             detail='Task not found',
         ) from exception
+
+
+@router.delete(
+    '',
+    summary='Deletes all tasks, use with caution',
+    description='Deletes all tasks, use with caution',
+)
+async def remove_all_tasks(db: DBSession = Depends(get_db)):
+    db.remove_all_tasks()
