@@ -4,5 +4,5 @@ Projeto 1 da disciplina Megadados - repositorio para alunos
 Para executar o serviço rode
 
 ```
-uvicorn api.main:app --reload
+uvicorn tasklist.main:app --reload
 ```
